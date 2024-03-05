@@ -1,0 +1,1 @@
+Mit 4 Personen und 3 Stühlen das ganze Problem iterativ und rekursiv durchspielen.
