@@ -11,13 +11,18 @@ def zielscheibe(diam,n):
         pass
     else:
         abstand=diam/(2*n)
-        kreis(diam-n*2*abstand)
+        kreis(diam)
         pu()
-        rt(90)
-        fd(diam/abstand)
         lt(90)
+        fd(abstand)
+        rt(90)
         pd()
-        zielscheibe(diam,n-1)
-        
+        zielscheibe(diam-2*abstand,n-1)
+
+pu()
+right(90)
+forward(200)
+pd()
+left(90)
 zielscheibe(400,10)
     
